@@ -1,0 +1,26 @@
+{
+    "mandarine": {
+        "server": {
+            "port": 4001
+        },
+        "resources": {
+            "staticFolder": "../client/build",
+            "staticRegExpPattern": "/(.*)",
+            "staticIndex": "index.html"
+        },
+        "dataSource": {
+            "dialect": "postgresql",
+            "data": {
+                "host": "127.0.0.1",
+                "port": 5432,
+                "username": "hipplan",
+                "password": "p7*63!kDX7$k9D%",
+                "database": "hipplan"
+            }
+        },
+        "templateEngine": {
+            "path": "../client/build",
+            "engine": "ejs"
+        }
+    }
+}
